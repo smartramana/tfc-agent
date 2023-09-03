@@ -31,6 +31,7 @@ resource "azurerm_container_group" "tfc-agent" {
 
     environment_variables = {
       TFC_AGENT_SINGLE = "True"
+      TFC_AGENT_NAME="az_agent"
     }
 
     secure_environment_variables = {
