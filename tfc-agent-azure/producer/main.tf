@@ -1,5 +1,7 @@
 provider "azurerm" {
+  subscription_id = "3ef4ffeb-d18c-41c3-b7d8-e4ce77dc05f2"
   skip_provider_registration = true
+  use_msi = true
   use_cli = false
   features {}
 }
