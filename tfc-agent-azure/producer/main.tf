@@ -19,7 +19,7 @@ resource "azurerm_container_group" "tfc-agent" {
 
   container {
     name   = "tfc-agent"
-    image  = "smartramana/tfc-agent:latest"
+    image  = "smartramana/tfc-agent-rhel:latest"
     cpu    = "1.0"
     memory = "4.0"
 
